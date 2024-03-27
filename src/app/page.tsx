@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 // export default function Home() {
 //   return (
@@ -114,11 +114,32 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Image src="/redpanda.jpg" alt="me" width={200} height={200}></Image>
-      <h1 className="mb-6 text-5xl font-bold">Louis Kuczykowski</h1>
-
-
-    </main>
+    <>
+      <main className="flex min-h-screen flex-col items-center p-24">
+        <nav className="w-11/12 flex h-auto justify-end mb-14">
+          <ul className="w-11/12 flex justify-end pr-8">
+            <li className="mr-8">About</li>
+            <li className="mr-8">Projects</li>
+            <li className="">Contacts</li>
+          </ul>
+        </nav>
+        <div
+          id="img-about-container"
+          className=" h-auto w-11/12 flex justify-between items-center"
+        >
+          <Image
+            src="/louis.jpg"
+            alt="me"
+            width={400}
+            height={450}
+            className="rounded-3xl"
+          ></Image>
+          <span className="w-6/12 text-xl mr-20 ml-20">
+            Hello, I'm Lou. I'm a Software Engineer with a passion for learning,
+            reading fantasy novels, and playing video games!
+          </span>
+        </div>
+      </main>
+    </>
   );
 }
