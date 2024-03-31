@@ -16,6 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&family=Mooli&display=swap')
+        </style>
+      </head>
+
       <body className={inter.className}>{children}</body>
     </html>
   );
