@@ -22,7 +22,7 @@ export default function Home() {
             height={450}
             className="rounded-3xl"
           ></Image>
-          <span className="text-xl mr-20 ml-20 w-7/12">
+          <span className="text-xl mr-20 ml-20 w-7/12 font-montserrat">
             Hello, I'm Lou. I'm a Software Engineer with a passion for learning,
             reading fantasy novels, and playing video games. <br />
             <br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -37,7 +37,11 @@ export default function Home() {
           </span>
         </div>
         <div id="projects" className="my-10 w-p">
-          <div id="card-container" className="grid grid-cols-2 gap-5">
+          <div className="text-4xl my-3 font-cabin">Projects</div>
+          <div
+            id="card-container"
+            className="grid grid-cols-2 gap-5 font-mooli"
+          >
             <div className="max-w-xxl bg-reactLab bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <div className=" bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
                 <svg
@@ -134,7 +138,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-xxl bg-coSync bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className=" bg-white opacity-55 h-full w-full p-6 border-2 border-black rounded-lg">
+              <div className=" bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
                 <svg
                   width="46"
                   height="48"
