@@ -43,7 +43,7 @@ export default function Home() {
             className="grid grid-cols-2 gap-5 font-mooli"
           >
             <div className="max-w-xxl bg-reactLab bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className=" bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
+              <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
                 <svg
                   width="46"
                   height="48"
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-xxl bg-articon bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className=" bg-white opacity-80 h-full w-full border-2 border-black p-6 rounded-lg">
+              <div className="hover:opacity-80 bg-white opacity-80 h-full w-full border-2 border-black p-6 rounded-lg">
                 <svg
                   width="46"
                   height="48"
@@ -138,7 +138,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-xxl bg-coSync bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className=" bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
+              <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
                 <svg
                   width="46"
                   height="48"
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
             </div>
             <div className="max-w-xxl bg-personalBookshelf bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <div className=" bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
+              <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
                 <svg
                   width="46"
                   height="48"
