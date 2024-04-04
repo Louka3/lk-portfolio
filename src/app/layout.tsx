@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
-import { Inter, Montserrat, Mooli, Cabin } from 'next/font/google';
+import { Inter, Montserrat, Cabin, Mooli } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
