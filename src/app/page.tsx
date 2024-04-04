@@ -5,8 +5,8 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col items-center p-24">
         <nav className="w-p flex h-auto justify-end mb-14">
-          <ul className="w-11/12 flex justify-end pr-8">
-            <li className="mr-8">About</li>
+          <ul className="w-11/12 font-bold font-mooli text-lg flex justify-end pr-8">
+            <li className="mr-8 font-mooli">About</li>
             <li className="mr-8">Projects</li>
             <li className="">Contacts</li>
           </ul>
@@ -22,9 +22,9 @@ export default function Home() {
             height={450}
             className="rounded-3xl"
           ></Image>
-          <span className="text-xl mr-20 ml-20 w-7/12 font-montserrat">
-            Hello, I'm Lou. I'm a Software Engineer with a passion for learning,
-            reading fantasy novels, and playing video games. <br />
+          <span className="text-xl mr-20 ml-20 w-7/12 font-cabin">
+            Hello, I&apos;m Lou. I&apos;m a Software Engineer with a passion for
+            learning, reading fantasy novels, and playing video games. <br />
             <br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Obcaecati consectetur doloremque deleniti aperiam vero ad sequi
             magni esse nostrum eligendi. Porro illum voluptate pariatur nisi in
@@ -44,7 +44,7 @@ export default function Home() {
           >
             <a href="https://github.com/oslabs-beta/React-Labyrinth/">
               <div className="max-w-xxl bg-reactLab bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
+                <div className="hover:opacity-80 min-h-60 bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
                   <svg
                     width="46"
                     height="48"
@@ -71,7 +71,7 @@ export default function Home() {
             </a>
             <a href="https://github.com/Articon-scratch-project/Articon">
               <div className="max-w-xxl bg-articon bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div className="hover:opacity-70 bg-white opacity-80 h-full w-full border-2 border-black p-6 rounded-lg">
+                <div className="hover:opacity-70  min-h-60 bg-white opacity-80 h-full w-full border-2 border-black p-6 rounded-lg">
                   <svg
                     width="46"
                     height="48"
@@ -97,7 +97,7 @@ export default function Home() {
             </a>
             <a href="https://github.com/IterationDreamTeam/Co-Sync">
               <div className="max-w-xxl bg-coSync bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
+                <div className="hover:opacity-80 min-h-60 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
                   <svg
                     width="46"
                     height="48"
@@ -115,15 +115,15 @@ export default function Home() {
                     Co-Sync
                   </h5>
                   <p className="mb-3 font-medium text-xl text-black dark:text-gray-400">
-                    Co-Sync is a SCRUM app. It's main focus is to help teams
-                    manage their projects and tasks.
+                    Co-Sync is a SCRUM app. It&apos;s main focus is to help
+                    teams manage their projects and tasks.
                   </p>
                 </div>
               </div>
             </a>
             <a href="https://github.com/Louka3/personal-bookshelf">
               <div className="max-w-xxl bg-personalBookshelf bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <div className="hover:opacity-80 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
+                <div className="hover:opacity-80 min-h-60 bg-white opacity-85 h-full w-full p-6 border-2 border-black rounded-lg">
                   <svg
                     width="46"
                     height="48"
@@ -142,7 +142,7 @@ export default function Home() {
                   </h5>
                   <p className="mb-3 font-medium text-xl text-black dark:text-gray-400">
                     A personal digital library to help users keep track of books
-                    they've read, enjoyed, or dropped before finishing.
+                    they&apos;ve read, enjoyed, or dropped before finishing.
                   </p>
                 </div>
               </div>

@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
+import { Inter, Montserrat, Mooli, Cabin } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+});
+const mooli = Mooli({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-mooli',
+});
+const cabin = Cabin({ subsets: ['latin'], variable: '--font-cabin' });
 
 export const metadata: Metadata = {
   title: 'Lk-portfolio',
@@ -17,14 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&family=Mooli&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.variable} ${montserrat.variable} ${mooli.variable} ${cabin.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

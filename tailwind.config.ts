@@ -22,9 +22,9 @@ const config: Config = {
           "url('https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
       },
       fontFamily: {
-        montserrat: ['montserrat', 'sans-seriff'],
-        mooli: ['mooli', 'sans-seriff'],
-        cabin: ['cabin', 'sans-seriff'],
+        montserrat: ['var(--font-montserrat)'],
+        mooli: ['var(--font-mooli)'],
+        cabin: ['var(--font-cabin)'],
       },
       width: {
         p: '75%',
