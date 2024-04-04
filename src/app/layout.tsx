@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -16,6 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&family=Mooli&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+
       <body className={inter.className}>{children}</body>
     </html>
   );
