@@ -9,7 +9,7 @@ export default function Home() {
           <p className="w-auto text-2xl font-cabin underline">
             Louis Kuczykowski
           </p>
-          <ul className="font-bold  text-lg flex justify-end pr-8">
+          <ul className="font-bold  text-xl flex justify-end pr-8">
             <li className="mr-8">
               <Link href="#projects">Projects</Link>
             </li>
@@ -29,7 +29,7 @@ export default function Home() {
             height={450}
             className="rounded-3xl"
           ></Image>
-          <span className="text-xl mr-20 ml-20 w-7/12 font-cabin">
+          <span className="text-xl mr-20 ml-20 w-7/12 font-montserrat">
             Hello, I&apos;m Lou. I&apos;m a Software Engineer with a passion for
             learning, reading fantasy novels, and playing video games! <br />
             I started learning to code when I attended Community College, where
@@ -48,7 +48,10 @@ export default function Home() {
         </div>
         <div id="projects" className="my-10 w-p flex flex-col">
           <div className="text-4xl my-8 font-cabin underline">Projects</div>
-          <div id="card-container" className="grid grid-cols-2 gap-5">
+          <div
+            id="card-container"
+            className="grid grid-cols-2 gap-5 font-mooli"
+          >
             <a
               href="https://github.com/oslabs-beta/React-Labyrinth/"
               target="_blank"

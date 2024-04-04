@@ -23,7 +23,7 @@ const config: Config = {
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
-        // mooli: ['var(--font-mooli)'],
+        mooli: ['var(--font-mooli)'],
         cabin: ['var(--font-cabin)'],
       },
       width: {
