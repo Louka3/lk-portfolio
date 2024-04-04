@@ -23,11 +23,14 @@ const config: Config = {
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
-        mooli: ['var(--font-mooli)'],
+        // mooli: ['var(--font-mooli)'],
         cabin: ['var(--font-cabin)'],
       },
       width: {
         p: '75%',
+      },
+      backgroundColor: {
+        main: 'rgb(214, 219, 220)',
       },
     },
   },
