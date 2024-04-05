@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col items-center pt-24">
         <nav className="w-p flex h-12 justify-between items-center mb-14">
-          <p className="w-auto text-2xl font-cabin underline">
+          <p className="w-auto text-2xl font-cabin underline text-blue-200">
             Louis Kuczykowski
           </p>
           <ul className="font-bold  text-xl flex justify-end pr-8">
