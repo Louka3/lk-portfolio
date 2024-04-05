@@ -227,7 +227,6 @@ export default function Home() {
           id="footer"
           className="w-full bg-main flex justify-center items-center flex-col"
         >
-          {/* <div id="line" className="h-px w-full bg-black"></div> */}
           <div className="h-12 flex justify-center items-center">
             <span className="mr-2">Built with</span>
             <svg
