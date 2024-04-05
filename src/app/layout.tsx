@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
-import { Inter, Montserrat, Cabin, Mooli } from 'next/font/google';
+import { Inter, Montserrat, Cabin, Merriweather } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -8,10 +8,10 @@ const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
 });
-const mooli = Mooli({
+const merriweather = Merriweather({
   subsets: ['latin'],
-  weight: '400',
-  variable: '--font-mooli',
+  variable: '--font-merriweather',
+  weight: '300',
 });
 const cabin = Cabin({ subsets: ['latin'], variable: '--font-cabin' });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${montserrat.variable} ${mooli.variable} ${cabin.variable}`}
+        className={`${inter.variable} ${montserrat.variable} ${merriweather.variable} ${cabin.variable}`}
       >
         {children}
       </body>
