@@ -18,7 +18,7 @@ export const ProjectSection = (): JSX.Element => {
                 upload."
           imgName="reactLab"
         />
-        <ProjectCard
+        {/* <ProjectCard
           name="Articon"
           url="https://github.com/Articon-scratch-project/Articon"
           description="An application that allows you to find famous artworks to use as
@@ -38,7 +38,7 @@ export const ProjectSection = (): JSX.Element => {
           description="A personal digital library to help users keep track of books
           they've read, enjoyed, or dropped before finishing."
           imgName="personalBookshelf"
-        />
+        /> */}
       </div>
     </div>
   );
