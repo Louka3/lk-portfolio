@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export const ProjectCard = (props: any): JSX.Element => {
   const { url, description, name, imgName } = props;
-
+  
   return (
     <Link href={`${url}`} target="_blank">
       <div
