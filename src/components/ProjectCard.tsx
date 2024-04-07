@@ -1,16 +1,14 @@
-'use server';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export const ProjectCard = (props: any): JSX.Element => {
   const { url, description, name, imgName } = props;
-
   return (
     <Link href={`${url}`} target="_blank">
       <div
         className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700`}
       >
-        <div className="hover:opacity-80 min-h-60 bg-white opacity-85 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
+        <div className="hover:opacity-70 min-h-60 bg-white opacity-75 h-full w-full p-6 border-2 rounded-lg border-solid border-black">
           <svg
             width="46"
             height="48"
