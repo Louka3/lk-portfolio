@@ -38,6 +38,9 @@ export const ProjectCard = (props: any): JSX.Element => {
           </p>
         </div>
       </div>
+      <div className="bg-articon"></div>
+      <div className="bg-personalBookshelf"></div>
+      <div className="bg-coSync"></div>
     </Link>
   );
 };
