@@ -1,10 +1,19 @@
-'use server';
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import React, { useState, useEffect } from 'react';
 
 export const ProjectCard = (props: any): JSX.Element => {
-  const { url, description, name, imgName } = props;
-
+  const [url, setUrl] = useState();
+  const [description, setDescription] = useState();
+  const [name, setName] = useState();
+  const [imgName, setImgName] = useState();
+  useEffect(() => {
+    setUrl(props.url);
+    setDescription(props.description);
+    setName(props.name);
+    setImgName(props.imgName);
+  }, []);
   return (
     <Link href={`${url}`} target="_blank">
       <div

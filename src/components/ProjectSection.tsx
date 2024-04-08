@@ -17,7 +17,7 @@ export const ProjectSection = (): JSX.Element => {
                 components and identifies the component type with a single file
                 upload."
           imgName="reactLab"
-          className="bg-reactLab"
+          //   className="bg-reactLab"
         />
         <ProjectCard
           name="Articon"
@@ -25,7 +25,7 @@ export const ProjectSection = (): JSX.Element => {
           description="An application that allows you to find famous artworks to use as
           reaction images for various emotions and situations."
           imgName="articon"
-          className="bg-articon"
+          //   className="bg-articon"
         />
         <ProjectCard
           name="Co-Sync"
@@ -33,7 +33,7 @@ export const ProjectSection = (): JSX.Element => {
           description="Co-Sync is a SCRUM app. It's main focus is to help teams
           manage their projects and tasks."
           imgName="coSync"
-          className="bg-coSync"
+          //   className="bg-coSync"
         />
         <ProjectCard
           name="Personal Bookshelf"
@@ -41,7 +41,7 @@ export const ProjectSection = (): JSX.Element => {
           description="A personal digital library to help users keep track of books
           they've read, enjoyed, or dropped before finishing."
           imgName="personalBookshelf"
-          className="bg-personalBookshelf"
+          //   className="bg-personalBookshelf"
         />
       </div>
     </div>
