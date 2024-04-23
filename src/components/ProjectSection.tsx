@@ -5,10 +5,12 @@ import { ProjectCard } from '../components/ProjectCard';
 export const ProjectSection = (): JSX.Element => {
   return (
     <div id="projects" className="my-10 w-p flex flex-col">
-      <div className="text-4xl my-8 font-cabin underline">Projects</div>
+      <div className="text-center lg:text-start text-4xl my-8 font-cabin underline">
+        Projects
+      </div>
       <div
         id="card-container"
-        className="grid grid-cols-2 gap-5 font-merriweather"
+        className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-5 font-merriweather"
       >
         <ProjectCard
           name="React Labyrinth"
