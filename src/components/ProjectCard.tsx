@@ -17,9 +17,9 @@ export const ProjectCard = (props: any): JSX.Element => {
   return (
     <Link href={`${url}`} target="_blank">
       <div
-        className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700`}
+        className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 `}
       >
-        <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start hover:opacity-70 min-h-64 bg-white opacity-80 h-full w-full p-4 sm:p-5 lg:p-6 border-2 rounded-lg border-solid border-black">
+        <div className="flex flex-col justify-center items-center min-h-64 bg-white border-2 rounded-lg border-solid border-black opacity-80 h-full w-full p-4 hover:opacity-70 sm:p-5 lg:justify-start lg:items-start lg:p-6 lg:min-h-72">
           <svg
             width="46"
             height="48"
@@ -35,13 +35,13 @@ export const ProjectCard = (props: any): JSX.Element => {
           </svg>
           <h5
             id="projectName"
-            className="mb-2 md:text-3xl font-semibold tracking-tight text-black"
+            className="mb-2 font-semibold tracking-tight text-black md:text-3xl 2xl:text-4xl"
           >
             {name}
           </h5>
           <p
             id="projectDescription"
-            className="mb-3 test-base md:font-medium md:text-xl text-black"
+            className="mb-3 test-base text-black md:font-medium md:text-xl 2xl:text-2xl"
           >
             {description}
           </p>

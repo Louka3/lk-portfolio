@@ -4,13 +4,13 @@ import { ProjectCard } from '../components/ProjectCard';
 
 export const ProjectSection = (): JSX.Element => {
   return (
-    <div id="projects" className="my-10 w-p flex flex-col">
-      <div className="text-center lg:text-start text-4xl my-8 font-cabin underline">
+    <div id="projects" className="my-10 w-p flex flex-col xl:my-24">
+      <div className="text-center text-4xl my-8 font-cabin underline lg:text-start 2xl:text-5xl">
         Projects
       </div>
       <div
         id="card-container"
-        className="flex flex-col lg:grid lg:grid-cols-2 lg:gap-5 font-merriweather"
+        className="font-merriweather flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-5"
       >
         <ProjectCard
           name="React Labyrinth"
