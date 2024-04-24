@@ -14,12 +14,12 @@ export const AboutSection = (): JSX.Element => {
             alt="me"
             width={450}
             height={500}
-            className="rounded-3xl "
+            className="rounded-3xl md:max-h-80 md:max-w-72 lg:max-h-[28rem] lg:max-w-[24rem] 2xl:max-h-[34rem] 2xl:max-w-[30rem]"
           ></Image>
         </div>
       </div>
       <div className="col-span-2 flex justify-center items-center">
-        <div className="text-sm leading-6 md:text-xl md:leading-9 xl:leading-10 xl:text-[1.6rem] font-montserrat md:px-5 lg:px-24 max-h-[500px] ">
+        <div className="text-sm leading-6 font-montserrat max-h-[500px] md:text-xl md:leading-9 md:px-5 lg:px-24 xl:leading-10 xl:text-[1.5rem] 2xl:text-[2rem] 2xl:leading-[3.2rem] ">
           <p className="pt-2 lg:pt-0">
             Hello, I&apos;m Lou. I&apos;m a Software Engineer with a passion for
             learning, reading fantasy novels, and playing video games!

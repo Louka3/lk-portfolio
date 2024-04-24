@@ -5,11 +5,11 @@ import Image from 'next/image';
 export const ContactSection = (): JSX.Element => {
   return (
     <div id="contacts" className="my-10 w-p flex flex-col">
-      <div className="font-cabin text-center lg:text-start text-4xl mb-8 underline">
+      <div className="font-cabin text-center  text-4xl mb-8 underline lg:text-start 2xl:text-5xl">
         Contacts
       </div>
-      <ul className="font-bold text-sm md:text-base lg:text-xl flex flex-col  items-center lg:flex-row my-4 w-full list-none p-0">
-        <li className=" flex flex-1 items-center min-w-7 max-h-8 w-auto py-2 mb-5 lg:mb-0">
+      <ul className="font-bold text-sm flex flex-col items-center my-4 w-full list-none p-0 md:text-base lg:text-xl lg:flex-row 2xl:text-2xl">
+        <li className=" flex flex-1 items-center min-w-7 max-h-8 w-auto py-2 mb-5 hover:underline lg:mb-0 ">
           <svg
             width="33"
             height="34"
@@ -28,7 +28,7 @@ export const ContactSection = (): JSX.Element => {
             Louka3
           </a>
         </li>
-        <li className=" flex flex-1 items-center max-h-8 w-auto justify-center my-4 lg:mb-0">
+        <li className=" flex flex-1 items-center max-h-8 w-auto justify-center my-4 hover:underline lg:mb-0">
           <Image
             src="/linkedin.png"
             alt="linkedin"
