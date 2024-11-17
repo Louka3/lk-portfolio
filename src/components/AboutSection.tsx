@@ -19,7 +19,7 @@ export const AboutSection = (): JSX.Element => {
         </div>
       </div>
       <div className="col-span-2 flex justify-center items-center">
-        <div className="text-sm leading-6 font-montserrat max-h-[500px] md:text-xl md:leading-9 md:px-5 lg:px-24 xl:leading-10 xl:text-[1.5rem] 2xl:text-[2rem] 2xl:leading-[3.2rem] ">
+        <div className="text-sm leading-6 font-montserrat max-h-[500px] md:text-xl md:leading-9 md:px-5 lg:px-24 xl:leading-10 xl:text-[1.1rem] 2xl:text-[1.2rem] 2xl:leading-[3.2rem] ">
           <p className="pt-2 lg:pt-0">
             Hello, I&apos;m Lou. I&apos;m a Software Engineer with a passion for
             learning, reading fantasy novels, and playing video games!
