@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 :root {
+  --chocolate-cosmos: #66101fff;
+  --rose-taupe: #855a5cff;
+  --battleship-gray: #8a8e91ff;
+  --columbia-blue: #b8d4e3ff;
+  --nyanza: #eeffdbff;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,6 +32,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background-color: white;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

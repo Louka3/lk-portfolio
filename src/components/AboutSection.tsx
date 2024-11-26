@@ -5,7 +5,7 @@ export const AboutSection = (): JSX.Element => {
   return (
     <div
       id="img-about-container"
-      className=" h-auto w-p flex flex-col justify-center items-center lg:grid lg:grid-cols-3"
+      className="mt-20 h-auto w-p flex flex-col justify-center items-center lg:grid lg:grid-cols-3"
     >
       <div className="col-span-1">
         <div className="aspect-w-1 aspect-h-1">
