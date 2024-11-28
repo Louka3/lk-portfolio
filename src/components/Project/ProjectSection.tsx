@@ -4,7 +4,7 @@ import { ProjectCard } from './ProjectCard';
 
 export const ProjectSection = (): JSX.Element => {
   return (
-    <div id="projects" className="my-10 w-p flex flex-col xl:my-24">
+    <div id="projects" className="my-12 w-p flex flex-col xl:my-24">
       <div className="text-center text-4xl my-8 font-cabin underline lg:text-start 2xl:text-5xl">
         Projects
       </div>
