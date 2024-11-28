@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Head from 'next/head';
 import { Inter, Montserrat, Cabin, Merriweather } from 'next/font/google';
 import './globals.css';
+import { Navbar } from '@/components/Home/Navbar';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const montserrat = Montserrat({
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${montserrat.variable} ${merriweather.variable} ${cabin.variable}`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
