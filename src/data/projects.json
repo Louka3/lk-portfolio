@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "react-labyrinth",
+      "name": "React Labyrinth",
+      "url": "https://github.com/oslabs-beta/React-Labyrinth/",
+      "description": "A VS Code Extension that generates a hierarchical tree of React components and identifies the component type with a single file upload.",
+      "imgName": "reactLab"
+    },
+    {
+      "id": "articon",
+      "name": "Articon",
+      "url": "https://github.com/oslabs-beta/React-Labyrinth/",
+      "description": "An application that allows you to find famous artworks to use as reaction images for various emotions and situations.",
+      "imgName": "articon"
+    },
+    {
+      "id": "co-sync",
+      "name": "Co-Sync",
+      "url": "https://github.com/IterationDreamTeam/Co-Sync",
+      "description": "Co-Sync is a SCRUM app. It's main focus is to help teams manage their projects and tasks.",
+      "imgName": "coSync"
+    },
+    {
+      "id": "personal-bookshelf",
+      "name": "Personal Bookshelf",
+      "url": "https://github.com/Louka3/personal-bookshelf",
+      "description": "A personal digital library to help users keep track of books they've read, enjoyed, or dropped before finishing.",
+      "imgName": "personalBookshelf"
+    }
+  ],
+  "lastUpdated": "11-27-2024",
+  "totalProjects": 4
+}
