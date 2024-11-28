@@ -37,6 +37,10 @@ body {
   box-sizing: border-box;
 } */
 
+/* 
+hover:-translate-y-0.5 transition-transform ease-in-ou
+*/
+
 body {
   background-color: white;
   padding: 0;
@@ -48,4 +52,15 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.link-transition {
+  /* hover:-translate-y-0.5 transition-transform ease-in-out */
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.link-transition:hover {
+  transform: translateY(-0.125rem);
 }
