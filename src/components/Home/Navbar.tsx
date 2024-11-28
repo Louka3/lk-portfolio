@@ -11,14 +11,14 @@ export const Navbar = (): JSX.Element => {
         <p className="w-auto text-sm font-cabin md:underline md:text-base lg:text-3xl">
           Louis Kuczykowski
         </p>
-        <ul className="font-bold text-xs flex justify-end pr-8 md:text-base lg:text-2xl">
-          <li className="mr-2 hover:underline md:mr-4 lg:mr-8">
+        <ul className="font-bold text-xs flex justify-end pr-8 md:text-base lg:text-2xl ">
+          <li className="mr-2 hover:underline link-transition md:mr-4 lg:mr-8">
             <Link href="/">Home</Link>
           </li>
-          <li className="mr-2 hover:underline md:mr-4 lg:mr-8">
+          <li className="mr-2 hover:underline link-transition md:mr-4 lg:mr-8">
             <Link href="/projects">Projects</Link>
           </li>
-          <li className="hover:underline">
+          <li className="hover:underline link-transition">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>

@@ -17,7 +17,7 @@ export const ProjectCard = (props: any): JSX.Element => {
   return (
     <Link href={`${url}`} target="_blank">
       <div
-        className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 `}
+        className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition ease-in-out delay-75 hover:scale-[1.02]`}
       >
         <div className="flex flex-col justify-center items-center min-h-64 bg-white border-2 rounded-lg border-solid border-black opacity-80 h-full w-full p-4 hover:opacity-70 sm:p-5 lg:justify-start lg:items-start lg:p-6 lg:min-h-72">
           <svg
