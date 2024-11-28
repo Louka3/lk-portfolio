@@ -33,6 +33,17 @@ const config: Config = {
         main: 'rgb(214, 219, 220)',
       },
     },
+    screens: {
+      // defaults
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      // defaults
+      '3xl': '1920px',
+      '4xl': '2560px',
+    },
   },
   plugins: [],
 };
