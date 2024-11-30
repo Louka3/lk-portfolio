@@ -15,7 +15,7 @@ export const ProjectCard = (props: any): JSX.Element => {
     setImgName(props.imgName);
   }, []);
   return (
-    <Link href={`${url}`} target="_blank">
+    <Link href={{ pathname: `./projects`, query: { name: props.name } }}>
       <div
         className={`max-w-xxl bg-${imgName} bg-cover bg-center rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-[1.02] card-transition`}
       >
