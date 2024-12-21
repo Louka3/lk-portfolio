@@ -8,7 +8,7 @@ export default function Projects({
   return (
     <>
       <main className="w-[80%] flex min-h-screen flex-col items-center pt-24">
-        <h1 className="project-headers">Project Name: {searchParams.name}</h1>
+        <h1 className="project-headers">{searchParams.name}</h1>
         <p id="summary">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
           dolorum veritatis ipsum est repellendus expedita itaque magnam dolore

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Navbar = (): JSX.Element => {
   return (
-    <nav className="z-50 w-full top-0 bg-white fixed flex h-24 justify-center items-center mb-5 md:mb-8 lg:mb-10 px-12">
+    <nav className="z-50 w-full top-0 bg-[#F4F3F2] fixed flex h-24 justify-center items-center mb-5 md:mb-8 lg:mb-10 px-12">
       <div
         id="nav-content"
         className="w-[85%] flex justify-between items-center "
