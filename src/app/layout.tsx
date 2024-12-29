@@ -1,6 +1,12 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
-import { Inter, Montserrat, Cabin, Merriweather } from 'next/font/google';
+import {
+  Inter,
+  Montserrat,
+  Cabin,
+  Merriweather,
+  Mulish,
+} from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/Home/Navbar';
 
@@ -15,6 +21,7 @@ const merriweather = Merriweather({
   weight: '300',
 });
 const cabin = Cabin({ subsets: ['latin'], variable: '--font-cabin' });
+const mulish = Mulish({ subsets: ['latin'], variable: '--font-mulish' });
 
 export const metadata: Metadata = {
   title: 'Lk-portfolio',
@@ -29,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${montserrat.variable} ${merriweather.variable} ${cabin.variable}`}
+        className={`${inter.variable} ${montserrat.variable} ${merriweather.variable} ${cabin.variable} ${mulish.variable}`}
       >
         <Navbar />
         {children}

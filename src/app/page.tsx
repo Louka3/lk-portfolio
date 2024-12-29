@@ -2,7 +2,7 @@ import Image from 'next/image';
 // import Link from 'next/link';
 import { Navbar } from '../components/Home/Navbar';
 import { AboutSection } from '../components/Home/AboutSection';
-import { ProjectSection } from '../components/Project/ProjectSection';
+import { ProjectSection } from '../components/Project/ProjectSectionHome';
 import { ContactSection } from '../components/Home/ContactSection';
 import { Footer } from '../components/Home/Footer';
 import RootLayout from './layout';
