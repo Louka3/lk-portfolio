@@ -25,6 +25,7 @@ const config: Config = {
         montserrat: ['var(--font-montserrat)'],
         merriweather: ['var(--font-merriweather)'],
         cabin: ['var(--font-cabin)'],
+        mulish: ['var(--font-mulish)'],
       },
       width: {
         p: '75%',
