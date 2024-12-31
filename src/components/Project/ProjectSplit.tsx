@@ -41,18 +41,12 @@ export const ProjectSplit = (props: any): JSX.Element => {
     }
   }, [projects, loading]);
 
-  const Spinner = () => (
-    <div className="flex justify-center items-center">
-      <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
-    </div>
-  );
-
   return (
-    <div className="my-20 border border-black flex min-w-full text-center items-center h-64 align-middle">
+    <div className="my-20 border-black flex min-w-full text-center items-center h-64 align-middle">
       <div className=" min-w-[50%] font-mulish text-6xl">
         {loading ? 'Loading...' : projectName}
       </div>
-      <div className=" text-lg min-h-full flex items-center font-mulish">
+      <div className=" text-lg min-h-full flex items-center font-mulish px-16 ">
         <p>{loading ? 'Loading...' : projectSummary}</p>
       </div>
     </div>

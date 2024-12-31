@@ -45,8 +45,9 @@ hover:-translate-y-0.5 transition-transform ease-in-ou
 */
 
 body {
-  background-color: #f4f3f2;
+  /* background-color: #f4f3f2; */ /* real */
   /* background-color: white; */
+  background-color: lightgray; /* for deving */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
