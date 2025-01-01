@@ -9,10 +9,10 @@ interface Project {
   imgName: string;
 }
 
-export const ProjectSplit = (props: any): JSX.Element => {
-  const [projects, setProjects] = useState<Project[]>([]);
-  const [projectName, setProjectName] = useState<string>();
-  const [projectSummary, setProjectSummary] = useState<string>('');
+export const ContentSplit = (props: any): JSX.Element => {
+  const [data, setData] = useState<Project[]>([]);
+  const [label, setLabel] = useState<string>();
+  const [details, setDetails] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -20,10 +20,10 @@ export const ProjectSplit = (props: any): JSX.Element => {
       try {
         const response = await fetch('../api/projects');
         const data = await response.json();
-        setProjects(data.projects);
+        setData(data.projects);
         setLoading(false);
       } catch (error) {
-        console.error('Error fetching projects data:', error);
+        console.error('Error fetching data data:', error);
         setLoading(false);
       }
     };
@@ -31,23 +31,23 @@ export const ProjectSplit = (props: any): JSX.Element => {
     console.log('Fetching data...');
   }, []);
   useEffect(() => {
-    if (!loading && projects.length > 0) {
-      console.log(projects);
-      const summary = projects.filter(
+    if (!loading && data.length > 0) {
+      console.log(data);
+      const summary = data.filter(
         (project) => project.name === 'React Labyrinth'
       );
-      setProjectName(props.projectName);
-      setProjectSummary(summary[0].description);
+      setLabel(props.projectName);
+      setDetails(summary[0].description);
     }
-  }, [projects, loading]);
+  }, [data, loading]);
 
   return (
     <div className="my-20 border-black flex min-w-full text-center items-center h-64 align-middle">
       <div className=" min-w-[50%] font-mulish text-6xl">
-        {loading ? 'Loading...' : projectName}
+        {loading ? 'Loading...' : label}
       </div>
       <div className=" text-lg min-h-full flex items-center font-mulish px-16 ">
-        <p>{loading ? 'Loading...' : projectSummary}</p>
+        <p>{loading ? 'Loading...' : details}</p>
       </div>
     </div>
   );
