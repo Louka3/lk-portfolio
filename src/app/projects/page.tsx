@@ -40,9 +40,9 @@ export default function Projects({
   useEffect(() => {
     if (!loading && projectData.length > 0) {
       const summary = projectData.filter(
-        (project) => project.name === 'React Labyrinth'
+        (project) => project.name === searchParams.name
       );
-      setProjectName(searchParams.name);
+      // setProjectName(searchParams.name);
       setProjectSummary(summary[0].description);
     }
   }, [projectData, loading]);
