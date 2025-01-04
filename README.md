@@ -1,4 +1,7 @@
-Check list:
+Checklist:
 
-- [ ] checklist item 1
-- [x] checklist item 2
+Projects Page
+
+- [ ] Create 'Tech Stack' section
+- [ ] Create 'Goals of the Project' section
+- [ ] Create 'Development Difficulties or Issues' section
