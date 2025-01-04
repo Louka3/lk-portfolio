@@ -1,6 +1,7 @@
 'use client';
 import { Navbar } from '@/components/Home/Navbar';
 import { ContentSplit } from '@/components/Universal/ContentSplit';
+import { Content } from 'next/font/google';
 import { useState, useEffect } from 'react';
 
 interface Project {
@@ -50,17 +51,6 @@ export default function Projects({
   return (
     <>
       <main className="w-[80%] flex min-h-screen flex-col items-center pt-24 font-mulish">
-        {/* <h1 className="project-headers">{searchParams.name}</h1>
-        <p id="summary">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
-          dolorum veritatis ipsum est repellendus expedita itaque magnam dolore
-          nulla accusamus assumenda repellat vel atque possimus. Laboriosam
-          iusto ipsum saepe commodi?
-        </p> */}
-        {/* <ContentSplit
-          projectName={'React Labyrinth'}
-          projectSummary={'summary'}
-        /> */}
         <div className="mt-10 flex flex-col min-w-full text-center items-center align-middle">
           <div className="h-20 text-6xl">
             {loading ? 'Loading...' : searchParams.name}
